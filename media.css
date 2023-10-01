@@ -1,0 +1,154 @@
+@media screen and (max-width: 1280px) {
+    .container {
+        width: 760px;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+
+    .about__two {
+        margin-top: 150px;
+        columns: 100px 2;
+        column-gap: 50px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .header {
+        width: 100vw;
+        height: 30vh;
+        background: url('../img/header_bg.jpg');
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+
+    .logo_name {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 38px;
+        text-transform: uppercase;
+    
+    }
+
+
+    .container {
+        width: 420px;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    .about__two {
+        margin-top: 150px;
+        columns: 100px 2;
+        column-gap: 50px;
+    }
+
+    .card {
+        margin-left: 100px;
+        max-width: 750px;
+        max-height: 100%;
+        display: flex;
+        flex-direction: column;
+        background: white;
+        color: #000;
+        position: relative;
+        top: -70px;
+        z-index: 2020;
+        font-size: 14px;
+    }
+    .card_text i {
+        font-size: 14px;
+    }
+
+    .card_text .head {
+        margin: 10px 0;
+        font-family: 'Roboto';
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .card .card__img img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .descr_list {
+        margin-left: 10px;
+    }
+
+    .about .head {
+        font-size: 26px;
+        font-weight: bold;
+        padding-bottom: 30px;
+    }
+
+    .about_cont-first {
+        max-height: 100%;
+        width: 60vw;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .container {
+        width: 260px;
+    }
+    .about__two {
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .break {
+        margin-bottom: 10px;
+    }
+
+    .contacts .head {
+        font-size: 22px;
+        font-weight: bold;
+        padding-bottom: 30px;
+    }
+
+    .about .head {
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .head__title {
+        font-size: 22px;
+        padding-bottom: 15px;
+    }
+
+    .send input {
+        width: 150px;
+        padding: 5px 10px;
+        border: 1px solid #b5261d;
+        background: white;
+    }
+
+    .about_cont-first__img {
+        min-width: 250px;
+    }
+
+    .card {
+        margin-left: 50px;
+    }
+
+    .card__descr {
+        margin-left: 10px;
+        padding: 20px 20px;
+    }
+
+    .logo_name {
+        font-size: 28px;
+    }
+}
